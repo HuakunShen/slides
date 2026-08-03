@@ -1,9 +1,9 @@
 {
-  "name": "tutorial2",
+  "name": "wol-web",
   "type": "module",
   "private": true,
   "scripts": {
-    "build": "slidev build --base /slides/tutorial2/ --out ../../dist/slides/tutorial2",
+    "build": "slidev build --base /slides/wol-web/ --out ../../dist/slides/wol-web",
     "dev": "slidev --open",
     "export": "slidev export"
   },
