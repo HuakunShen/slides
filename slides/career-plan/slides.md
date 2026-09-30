@@ -14,14 +14,14 @@ export:
 ---
 
 <div class="cover">
-  <h1>规划</h1>
+  <h1>计划</h1>
 </div>
 
 ---
 
 <h1>我最近在做的两个软件</h1>
 
-<p class="project-overview-lead">这两个都是我自己从零开始写的，不是单纯练习，也还没有到需要把它们当成公司的阶段。</p>
+<p class="project-overview-lead">这两个都是我自己从零开始写的软件，不是单纯练习；现在的重点是先把它们真正做完、发布出去。</p>
 
 <div class="project-overview-grid">
   <div class="project-overview-card crosscopy-overview">
@@ -80,25 +80,25 @@ export:
     <div>对长期做自己软件的帮助</div>
     <div>我的判断</div>
   </div>
-  <div class="route-row primary-route">
+  <div class="route-row">
     <div><strong>做自己的软件</strong></div>
-    <div>极高</div><div>低</div><div>极高</div><div>极高</div><div><span class="status green">主攻方向</span></div>
+    <div class="metric-high">极高</div><div class="metric-low">低</div><div class="metric-high">极高</div><div class="metric-high">极高</div><div><span class="status green">主攻方向</span></div>
   </div>
   <div class="route-row">
     <div><strong>海外远程<br>住香港或深圳</strong></div>
-    <div>高</div><div>中低</div><div>极高</div><div>中高</div><div><span class="status blue">最理想的就业备选</span></div>
+    <div class="metric-high">高</div><div class="metric-low">中低</div><div class="metric-high">极高</div><div class="metric-high">中高</div><div><span class="status blue">最理想的就业备选</span></div>
   </div>
   <div class="route-row">
     <div><strong>美国线下或混合办公</strong></div>
-    <div>很高</div><div>中</div><div>低</div><div>中</div><div><span class="status orange">值得保留的选择</span></div>
+    <div class="metric-high">很高</div><div>中</div><div class="metric-low">低</div><div>中</div><div><span class="status orange">值得保留的选择</span></div>
   </div>
   <div class="route-row">
     <div><strong>香港本地工作</strong></div>
-    <div>中高</div><div>中高</div><div>高</div><div>中</div><div><span class="status neutral">最现实的过渡方案</span></div>
+    <div class="metric-high">中高</div><div class="metric-high">中高</div><div class="metric-high">高</div><div>中</div><div><span class="status neutral">最现实的过渡方案</span></div>
   </div>
   <div class="route-row">
     <div><strong>深圳或大陆工作</strong></div>
-    <div>中</div><div>中高</div><div>高</div><div>中低</div><div><span class="status neutral">现金流保底</span></div>
+    <div>中</div><div class="metric-high">中高</div><div class="metric-high">高</div><div class="metric-low">中低</div><div><span class="status neutral">现金流保底</span></div>
   </div>
 </div>
 
@@ -148,7 +148,7 @@ export:
 
 <div class="proof-row">
 <div class="proof-item"><strong>8.6 万</strong><span>LocalSend 的 GitHub 收藏</span></div>
-<div class="proof-item"><strong>约前 200 名</strong><span>LocalSend 所在的公开项目量级</span></div>
+<div class="proof-item"><strong>头部量级</strong><span>绝大多数开源项目远达不到 8 万收藏</span></div>
 <div class="proof-item"><strong>500 万+</strong><span>LocalSend 官网公布的下载量</span></div>
 </div>
 
@@ -286,3 +286,158 @@ export:
 </div>
 
 <p class="side-note">Kunkun 先保留现有成果，不同时大规模扩展两个项目。</p>
+
+---
+class: crosscopy-divider crosscopy-section
+background: '#101d1b'
+---
+
+<div class="crosscopy-divider-content">
+  <div class="section-kicker">最后单独看一个项目</div>
+  <h1>CrossCopy：从项目到产品</h1>
+  <p>下面具体看看它现在做到哪一步、还要多久能发布，以及什么时候可以开始收费。</p>
+</div>
+
+---
+class: crosscopy-section
+background: '#101d1b'
+---
+
+<h1>CrossCopy 还要走到哪一步</h1>
+
+<p class="section-lead">这里的比例是离不同目标还有多少工作的粗估，不按代码行数计算。收入数字也只是可能性，不是承诺。</p>
+
+<div class="stage-grid">
+  <div class="stage-card stage-now">
+    <div class="stage-top"><span>现在</span><strong>还在打磨</strong></div>
+    <div class="stage-progress-label">距公开 MVP：约 40%</div>
+    <div class="stage-progress-track"><div class="stage-progress-fill green-fill" style="width: 40%"></div></div>
+    <div class="stage-progress-label">距完整产品：约 20%</div>
+    <div class="stage-progress-track"><div class="stage-progress-fill blue-fill" style="width: 20%"></div></div>
+    <p><b>已经有：</b>设备连接、文件传输、剪贴板同步、跨网络连接等核心能力。</p>
+    <p><b>还缺：</b>稳定性、权限引导、跨平台发布和整体体验。</p>
+    <div class="stage-income">收入：暂时没有</div>
+  </div>
+
+  <div class="stage-card stage-mvp">
+    <div class="stage-top"><span>第一版 MVP</span><strong>约 1–2 个月</strong></div>
+    <div class="stage-chip-row"><span>文件</span><span>剪贴板</span><span>设备</span><span>跨网络</span></div>
+    <p><b>重点：</b>功能可以少，但普通用户能安装、连接和稳定使用。</p>
+    <p><b>范围：</b>先覆盖桌面端，手机端作为配套入口，不追求所有功能同时完成。</p>
+    <div class="stage-income">收入可能：0～1,000 美元 / 月<br><small>这一阶段主要验证有没有人愿意长期使用</small></div>
+  </div>
+
+  <div class="stage-card stage-paid">
+    <div class="stage-top"><span>可以收费</span><strong>MVP 后约 2–4 周</strong></div>
+    <div class="stage-chip-row"><span>多电脑共用键鼠</span><span>远程终端</span><span>远程连接</span><span>账号订阅</span></div>
+    <p><b>重点：</b>把更有价值的功能做稳定，再加入可靠的中转服务、账号和订阅。</p>
+    <p><b>客户：</b>先面向个人用户，也可以尝试小团队。</p>
+    <div class="stage-income">从现在约 9–12 周可以开始收费<br><small>早期可能：0～2 万美元 / 月；刚开始也可能暂时没有收入</small></div>
+  </div>
+
+  <div class="stage-card stage-full">
+    <div class="stage-top"><span>完整产品</span><strong>1–3 年逐步完善</strong></div>
+    <div class="stage-chip-row"><span>团队管理</span><span>更多平台</span><span>设备控制</span><span>企业服务</span></div>
+    <p><b>再增加：</b>更丰富的同步、远程操作、团队权限、审计和人工智能辅助。</p>
+    <p><b>客户：</b>个人、开发者、远程工作者和公司都可以覆盖。</p>
+    <div class="stage-income">收入可能：约 2 万～10 万美元 / 月<br><small>这是做成稳定产品后的可能范围，不是近期收入预测</small></div>
+  </div>
+</div>
+
+<div class="crosscopy-caveat">最重要的判断点不是“还要不要继续加功能”，而是第一版发布后：有没有人持续使用、有没有人愿意付费。</div>
+
+---
+class: crosscopy-section
+background: '#101d1b'
+---
+
+<h1>CrossCopy 和哪些产品重叠</h1>
+
+<div class="superset-note"><strong>最终目标：</strong>覆盖 Termius 远程登录和管理电脑的能力，再加上文件、剪贴板和多设备协同；同时与 Tailscale、RustDesk、LocalSend 的部分功能重叠。</div>
+
+<div class="comparison-layout">
+  <div class="feature-stack">
+    <div class="feature-band"><span>分享</span><strong>文件、剪贴板、设备之间传内容</strong></div>
+    <div class="feature-band"><span>连接</span><strong>跨网络连接、远程登录和网络通道</strong></div>
+    <div class="feature-band"><span>协同</span><strong>多台电脑共用键盘鼠标和远程操作</strong></div>
+    <div class="feature-band"><span>团队</span><strong>账号、设备、权限、审计和企业服务</strong></div>
+  </div>
+
+  <div class="overlap-list">
+    <div class="overlap-card">
+      <div class="overlap-head"><strong>LocalSend</strong><span>重叠约 1/3</span></div>
+      <div class="overlap-meter"><div style="width: 32%"></div></div>
+      <p>主要重叠在文件传输；CrossCopy 目标还包括跨网络、剪贴板和设备协同。</p>
+    </div>
+    <div class="overlap-card">
+      <div class="overlap-head"><strong>Tailscale</strong><span>重叠约一半</span></div>
+      <div class="overlap-meter"><div style="width: 48%"></div></div>
+      <p>都关心设备连接、跨网络和远程登录；CrossCopy 另外面向普通用户的分享和协同。</p>
+    </div>
+    <div class="overlap-card">
+      <div class="overlap-head"><strong>Termius</strong><span>重叠约一半以上</span></div>
+      <div class="overlap-meter"><div style="width: 58%"></div></div>
+      <p>最终目标会覆盖它的远程登录和终端方向，并再加文件、剪贴板和设备管理。</p>
+    </div>
+    <div class="overlap-card">
+      <div class="overlap-head"><strong>RustDesk</strong><span>重叠约 1/3</span></div>
+      <div class="overlap-meter"><div style="width: 34%"></div></div>
+      <p>都涉及跨设备、文件和剪贴板；RustDesk 更专注远程控制电脑。</p>
+    </div>
+  </div>
+</div>
+
+<p class="comparison-footnote">这里比较的是最终目标的功能方向，不代表今天已经全部实现；百分比只是帮助理解重叠程度的粗估。</p>
+
+---
+class: crosscopy-section
+background: '#101d1b'
+---
+
+<h1>市场上已经有类似产品，而且能做到很大</h1>
+
+<div class="market-grid">
+  <div class="market-card localsend-card">
+    <div class="market-name">LocalSend</div>
+    <div class="market-role">同一网络内传文件</div>
+    <div class="market-metric"><strong>8.6 万</strong><span>GitHub 收藏</span></div>
+    <div class="market-metric"><strong>500 万+</strong><span>官网公布的下载量</span></div>
+    <div class="market-revenue">收入：没有公开商业收入</div>
+  </div>
+
+  <div class="market-card tailscale-card">
+    <div class="market-name">Tailscale</div>
+    <div class="market-role">跨网络连接设备和团队网络</div>
+    <div class="market-metric"><strong>约 200 万</strong><span>月活跃用户</span></div>
+    <div class="market-metric"><strong>近 4 万</strong><span>付费公司</span></div>
+    <div class="market-revenue">收入：未公开；外部估算约 4,500 万美元 / 年</div>
+  </div>
+
+  <div class="market-card termius-card">
+    <div class="market-name">Termius</div>
+    <div class="market-role">在手机和电脑上远程登录、管理其他电脑</div>
+    <div class="market-metric"><strong>2 万+</strong><span>官网公布的客户</span></div>
+    <div class="market-metric"><strong>约 400 万</strong><span>美元年收入（第三方估算）</span></div>
+    <div class="market-revenue">说明：它是 CrossCopy 在开发者方向上的直接参照。</div>
+  </div>
+
+  <div class="market-card rustdesk-card">
+    <div class="market-name">RustDesk</div>
+    <div class="market-role">远程控制电脑，也支持自建服务</div>
+    <div class="market-metric"><strong>3,000 万+</strong><span>客户端下载</span></div>
+    <div class="market-metric"><strong>1,000 万+</strong><span>活跃设备</span></div>
+    <div class="market-revenue">收入：没有公开；通过商业版服务收费</div>
+  </div>
+
+  <div class="market-card teamviewer-card">
+    <div class="market-name">TeamViewer</div>
+    <div class="market-role">远程控制和企业 IT 支持</div>
+    <div class="market-metric"><strong>64.5 万+</strong><span>付费客户</span></div>
+    <div class="market-metric"><strong>7.675 亿欧元</strong><span>2025 年收入</span></div>
+    <div class="market-revenue">这是成熟企业产品的规模参照，不是 CrossCopy 的预测。</div>
+  </div>
+</div>
+
+<div class="market-summary">这些产品说明：免费用户规模和付费收入可以同时存在。CrossCopy 现在还没有这些数字，当前要做的是先把第一版放出去，再用真实用户验证上面的可能性。</div>
+
+<div class="source-note competitor-source">资料：<a href="https://github.com/localsend/localsend">LocalSend GitHub</a>、<a href="https://localsend.org/">LocalSend 官网</a>、<a href="https://betakit.com/tailscale-catches-ai-tailwinds-as-it-nears-40000-paid-business-customers/">Tailscale / BetaKit</a>、<a href="https://ncfacanada.org/tailscale-company-profile-growth-strategy/">Tailscale 外部估算</a>、<a href="https://termius.com/careers">Termius 官网</a>、<a href="https://getlatka.com/companies/termius">Termius 第三方估算</a>、<a href="https://rustedesk.com/?lang=en">RustDesk 官网</a>、<a href="https://ir.teamviewer.com/news-details/teamviewer-erfuellt-pro-forma-prognose-fuer-geschaeftsjahr-2025-stark-wachstum-des-bereinigten-ebitda-bereinigte-ebitda-marge-von/e2f8c1f9-341a-488f-b5fd-e80c863e42be">TeamViewer 2025</a></div>

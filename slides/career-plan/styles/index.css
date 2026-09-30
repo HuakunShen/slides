@@ -9,6 +9,7 @@
   --blue-soft: rgba(114, 167, 255, 0.13);
   --green: #75d3ad;
   --green-soft: rgba(117, 211, 173, 0.13);
+  --red: #ff8f8f;
   --orange: #f0b46b;
   --orange-soft: rgba(240, 180, 107, 0.13);
 }
@@ -225,8 +226,14 @@ body,
   min-height: 48px;
 }
 
-.primary-route {
-  background: var(--green-soft);
+.metric-high {
+  color: var(--green);
+  font-weight: 700;
+}
+
+.metric-low {
+  color: var(--red);
+  font-weight: 700;
 }
 
 .status {
@@ -268,6 +275,349 @@ body,
   color: var(--muted) !important;
   font-size: 16px !important;
   margin-top: 16px !important;
+}
+
+.crosscopy-section {
+  background: #101d1b !important;
+}
+
+.crosscopy-section h1 {
+  color: #f1f5f2;
+}
+
+.crosscopy-divider {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.crosscopy-divider-content {
+  max-width: 830px;
+}
+
+.section-kicker {
+  color: var(--green);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  margin-bottom: 24px;
+}
+
+.crosscopy-divider h1 {
+  font-size: 62px;
+  margin-bottom: 20px;
+}
+
+.crosscopy-divider p {
+  color: #d2ddd7;
+  font-size: 25px;
+  opacity: 1 !important;
+}
+
+.section-lead {
+  color: #bdcbc3 !important;
+  font-size: 19px !important;
+  margin: -11px 0 22px !important;
+}
+
+.stage-grid {
+  display: grid;
+  gap: 13px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.stage-card {
+  background: rgba(10, 18, 17, 0.78);
+  border: 1px solid #29403a;
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  min-height: 427px;
+  padding: 19px 18px;
+}
+
+.stage-now { border-top: 3px solid #8dcdb0; }
+.stage-mvp { border-top: 3px solid var(--green); }
+.stage-paid { border-top: 3px solid var(--blue); }
+.stage-full { border-top: 3px solid var(--orange); }
+
+.stage-top {
+  align-items: baseline;
+  display: flex;
+  gap: 8px;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.stage-top span {
+  color: #f1f5f2;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.stage-top strong {
+  color: var(--muted);
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.stage-progress-label {
+  color: var(--muted);
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+
+.stage-progress-track {
+  background: #26352f;
+  border-radius: 999px;
+  height: 8px;
+  margin-bottom: 14px;
+  overflow: hidden;
+}
+
+.stage-progress-fill {
+  border-radius: inherit;
+  height: 100%;
+}
+
+.stage-card p {
+  color: #b4c0ba;
+  font-size: 16px;
+  line-height: 1.46;
+  margin-top: 12px;
+}
+
+.stage-card p b {
+  color: #e4ece7;
+}
+
+.stage-chip-row {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  min-height: 0;
+}
+
+.stage-chip-row span {
+  background: #1a2a25;
+  border: 1px solid #315046;
+  border-radius: 999px;
+  color: #c7d9cf;
+  display: inline-flex;
+  flex: 0 0 auto;
+  font-size: 13px !important;
+  font-weight: 600;
+  height: 28px;
+  align-items: center;
+  line-height: 1 !important;
+  min-height: 28px;
+  padding: 0 9px;
+  white-space: nowrap;
+}
+
+.stage-income {
+  border-top: 1px solid #29403a;
+  color: #eff6f1;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-top: auto;
+  padding-top: 14px;
+}
+
+.stage-income small {
+  color: #84988e;
+  font-size: 12px;
+}
+
+.crosscopy-caveat,
+.superset-note,
+.market-summary {
+  background: rgba(117, 211, 173, 0.08);
+  border-left: 3px solid var(--green);
+  color: #c5d4cc;
+  font-size: 17px;
+  line-height: 1.45;
+  margin-top: 16px;
+  padding: 11px 15px;
+}
+
+.superset-note {
+  margin: -9px 0 20px;
+}
+
+.comparison-layout {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.35fr);
+}
+
+.feature-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.feature-band {
+  align-items: center;
+  background: rgba(10, 18, 17, 0.78);
+  border: 1px solid #29403a;
+  border-radius: 11px;
+  display: flex;
+  gap: 12px;
+  min-height: 58px;
+  padding: 10px 13px;
+}
+
+.feature-band span {
+  background: #1d3a31;
+  border-radius: 999px;
+  color: var(--green);
+  flex: 0 0 auto;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 8px;
+}
+
+.feature-band strong {
+  color: #d9e5de;
+  font-size: 16px;
+  line-height: 1.35;
+}
+
+.overlap-list {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.overlap-card {
+  background: rgba(10, 18, 17, 0.78);
+  border: 1px solid #29403a;
+  border-radius: 11px;
+  padding: 13px 14px;
+}
+
+.overlap-head {
+  align-items: baseline;
+  display: flex;
+  justify-content: space-between;
+}
+
+.overlap-head strong {
+  color: #eef4f0;
+  font-size: 18px;
+}
+
+.overlap-head span {
+  color: var(--green);
+  font-size: 13px;
+}
+
+.overlap-meter {
+  background: #26352f;
+  border-radius: 999px;
+  height: 8px;
+  margin: 9px 0 9px;
+  overflow: hidden;
+}
+
+.overlap-meter div {
+  background: var(--green);
+  border-radius: inherit;
+  height: 100%;
+}
+
+.overlap-card p {
+  color: #aebdb5;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.comparison-footnote {
+  color: #84988e !important;
+  font-size: 14px !important;
+  margin-top: 13px !important;
+}
+
+.market-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.market-card {
+  background: rgba(10, 18, 17, 0.78);
+  border: 1px solid #29403a;
+  border-radius: 12px;
+  grid-column: span 2;
+  min-height: 210px;
+  padding: 16px 16px 14px;
+}
+
+.market-card:nth-child(4) {
+  grid-column: 2 / span 2;
+}
+
+.market-card:nth-child(5) {
+  grid-column: 4 / span 2;
+}
+
+.localsend-card { border-top: 3px solid #8dcdb0; }
+.tailscale-card { border-top: 3px solid var(--blue); }
+.termius-card { border-top: 3px solid var(--orange); }
+.rustdesk-card { border-top: 3px solid #c39cff; }
+.teamviewer-card { border-top: 3px solid #e99b9b; }
+
+.market-name {
+  color: #f0f5f2;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.market-role {
+  color: #8fa198;
+  font-size: 14px;
+  line-height: 1.35;
+  margin: 4px 0 13px;
+  min-height: 38px;
+}
+
+.market-metric {
+  align-items: baseline;
+  border-top: 1px solid #29403a;
+  display: flex;
+  gap: 7px;
+  padding-top: 8px;
+}
+
+.market-metric strong {
+  color: #e6f1eb;
+  font-size: 18px;
+  white-space: nowrap;
+}
+
+.market-metric span {
+  color: #aab9b1;
+  font-size: 13px;
+  line-height: 1.3;
+}
+
+.market-revenue {
+  color: #9fb0a7;
+  font-size: 13px;
+  line-height: 1.38;
+  margin-top: 10px;
+}
+
+.market-summary {
+  margin-top: 13px;
+}
+
+.competitor-source {
+  bottom: 14px;
+  font-size: 11px;
 }
 
 .challenge-grid {
